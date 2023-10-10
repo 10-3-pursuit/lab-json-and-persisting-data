@@ -11,9 +11,9 @@ const createRandomWallet = (_currency, amount) => {
     return product;
 }
 
-function depositMoney(_id, amount) {
-    const wallet = null;
-    return wallet;
+function depositMoney(id, amount) {
+    const wallet = blocks.find((block) => block._id == id);
+    return wallet ? wallet : null;
 }
 
-module.exports = { createRandomWallet,  };
+module.exports = { createRandomWallet, depositMoney };
