@@ -1,11 +1,20 @@
 const {createMultipleMessages, createRandomMessage} = require('../messages');
+const {faker} = require("@faker-js/faker")
 
 describe("Messages",() =>{
     describe("createRandomMessage()",() =>{
         it("should create one random message object",() =>{
-            const actual = Array.isArray(createRandomMessage());
-            const expected = false;
-            expect(actual).toEqual(expected);
+            const actual = createRandomMessage()
+            const expected = {
+                id: faker.datatype.uuid(),
+                username: `${faker.hacker.adjective()} ${faker.science.chemicalElement().name} ${faker.animal.cat()}`,
+                messageTitle: `Help with ${faker.hacker.adjective()} ${faker.hacker.abbreviation()} on ${faker.git.branch()}`,
+                messageContent: faker.lorem.paragraph(),
+                isResolved: faker.datatype.boolean(),
+                messageResponse: `${faker.hacker.phrase()} -date:${faker.date.future()}`,
+                numberOfUpvotes: faker.datatype.number()
+            };
+            expect(actual.length).toEqual(expected.length);
         });
     });
 
