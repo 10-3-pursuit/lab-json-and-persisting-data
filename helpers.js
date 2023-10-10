@@ -1,4 +1,3 @@
-const { isUtf8 } = require("node:buffer");
 const { writeFileSync, readFileSync } = require("node:fs");
 
 const writeJSONFile = (path, fileName, data) => {
