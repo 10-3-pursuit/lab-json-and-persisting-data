@@ -1,0 +1,34 @@
+[
+  {
+    "voughtID": "44c6a9ff-3859-4bfe-b2fa-d741117eb5af",
+    "name": "back-end Wellington",
+    "powerLevelOver9k": true,
+    "weakness": {
+      "symbol": "Pd",
+      "name": "Palladium",
+      "atomicNumber": 46
+    },
+    "peopleSaved": 817091709,
+    "digitalWallets": {
+      "bitcoin": "1tcSh4QJr7EXWVVEomVeTonuQfzpA8WjDehu",
+      "litecoin": "MWwfkxZq4MeCano79UH2Jzr6Huz",
+      "ethereum": "0xfca4d18bcad90e3bb399f9deceb59198dc517add"
+    }
+  },
+  {
+    "voughtID": "d202fc83-cb34-4453-a424-e44b8dbb9a7c",
+    "name": "virtual Madge",
+    "powerLevelOver9k": false,
+    "weakness": {
+      "symbol": "Fl",
+      "name": "Flerovium",
+      "atomicNumber": 114
+    },
+    "peopleSaved": 3975316197,
+    "digitalWallets": {
+      "bitcoin": "1BxLxobBRJ8SFgmMKV4Y79CbXJD",
+      "litecoin": "MUDEBnucKBvs41F9BcRqYFngyAGXJtz",
+      "ethereum": "0x01aaa6b564f8fd0e880951ffa0639979cba1aa6c"
+    }
+  }
+]
