@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Pat Wolff",
+    "age": 36,
+    "phone": "2607711123",
+    "state": "Oklahoma",
+    "alive": true
+  },
+  {
+    "name": "Tomas Boyle",
+    "age": 84,
+    "phone": "6301199700",
+    "state": "Arizona",
+    "alive": false
+  },
+  {
+    "name": "Suzanne Pouros",
+    "age": 18,
+    "phone": "0038454288",
+    "state": "Nevada",
+    "alive": true
+  },
+  {
+    "name": "Yvette Raynor I",
+    "age": 24,
+    "phone": "6691901620",
+    "state": "South Dakota",
+    "alive": false
+  }
+]
