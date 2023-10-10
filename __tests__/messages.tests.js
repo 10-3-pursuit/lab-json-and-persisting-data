@@ -23,7 +23,7 @@ describe("Messages", () => {
     describe('randomMessageFactory', () => {
         it("should create the number of message objects given", () => {
             const input = 3
-            const actual = randomMessageFactory(3)
+            const actual = randomMessageFactory(input)
             const expected = [
                 {
                 userId: expect.any(String),
@@ -59,5 +59,5 @@ describe("Messages", () => {
             expect(actual).toEqual(expected)
         })
     })
-
 })
+
