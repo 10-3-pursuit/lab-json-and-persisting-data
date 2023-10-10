@@ -11,6 +11,13 @@ describe(generateRandomMaterial, () => {
         // Assert that actual result is not empty
         expect(actual.length).toBeGreaterThan(0);
     });
-    test ("generates correct number of items",() => {});
+    test ("generates correct number of items",() => {
+        const input = 5; // test for 5 materials
+        const actual = generateRandomMaterial(input);
+        const actualCount = actual.split(', ').length;
+
+        // Assert that actual number of items generated matches the input number
+        expect(actualCount).toBe(input);
+    });
     test ("returns undefined if argument is incorrect data type",() => {});
 });
