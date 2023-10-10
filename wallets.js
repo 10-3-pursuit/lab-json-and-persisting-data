@@ -11,6 +11,14 @@ const createRandomWallet = (_currency, amount) => {
     return wallet;
 }
 
+const generateMultipleWallets = (num, _currency = 'USD', amount = 0.1) => {
+    const wallets = [];
+    for (let i = 0; i < num; i++) {
+        wallets.push(createRandomWallet(_currency, amount));
+    }
+    return wallets;
+}
+
 function depositMoney(id, amount) {
     const wallet = blocks.find((block) => block._id == id);
     if (wallet) {
