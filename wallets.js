@@ -2,13 +2,13 @@ const { faker } = require('@faker-js/faker');
 const { blocks } = require('./data/blocks')
 
 const createRandomWallet = (_currency, amount) => {
-    const product = {
+    const wallet = {
         _id: faker.datatype.uuid(),
         displayName: `${faker.person.firstName}`,
         balance: amount,
         currency: _currency,
     };
-    return product;
+    return wallet;
 }
 
 function depositMoney(id, amount) {
