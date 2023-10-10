@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "14741e9c-a070-4878-8fd7-f2a0473edac8",
+    "name": "Gorgeous Chair",
+    "inJail": false,
+    "popularityLvl": "95"
+  },
+  {
+    "_id": "c82d771f-d372-479b-ba6c-b21d9c066a47",
+    "name": "Practical Sausages",
+    "inJail": false,
+    "popularityLvl": "77"
+  },
+  {
+    "_id": "40750ebb-1721-4272-9823-6092c075fcdc",
+    "name": "Tasty Tuna",
+    "inJail": true,
+    "popularityLvl": "89"
+  },
+  {
+    "_id": "fda3928a-a68f-4044-8c90-3d17740493f0",
+    "name": "Sleek Car",
+    "inJail": true,
+    "popularityLvl": "12"
+  },
+  {
+    "_id": "6b49e2ab-80a9-47cb-b272-d7b5f11b0bc4",
+    "name": "Rustic Computer",
+    "inJail": true,
+    "popularityLvl": "71"
+  },
+  {
+    "_id": "f4465e13-5880-4220-8c07-b99096b1e870",
+    "name": "Ergonomic Fish",
+    "inJail": false,
+    "popularityLvl": "31"
+  },
+  {
+    "_id": "56b0b827-5a93-4951-b268-b0afb7c41a30",
+    "name": "Intelligent Gloves",
+    "inJail": true,
+    "popularityLvl": "31"
+  },
+  {
+    "_id": "02eae859-1987-42a0-a0ea-a23fa36eb1c1",
+    "name": "Electronic Chips",
+    "inJail": true,
+    "popularityLvl": "66"
+  },
+  {
+    "_id": "f550ff26-e212-4d02-9aac-0c91d5e4eb6d",
+    "name": "Fantastic Gloves",
+    "inJail": true,
+    "popularityLvl": "1"
+  },
+  {
+    "_id": "20d5b41b-0724-49a1-ab96-b3c7518eae7b",
+    "name": "Unbranded Shirt",
+    "inJail": false,
+    "popularityLvl": "72"
+  }
+]
