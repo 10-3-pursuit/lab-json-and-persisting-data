@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "1ae457b9-23ea-4c4a-80db-09e931bc35cc",
+    "Username": "Paula Mueller",
+    "post": "Nesciunt aut amet impedit porro minima. Saepe a sunt. Veniam eos cum mollitia velit quibusdam facilis.",
+    "postedToday": false,
+    "Upvotes": 16827
+  },
+  {
+    "_id": "836e7846-3da0-4d35-96f8-be4ffa080c6a",
+    "Username": "Brendan Herman",
+    "post": "Voluptatibus debitis voluptas ducimus molestias. Doloribus minus aliquid. Commodi laudantium cum ducimus nesciunt rem illum voluptas rem facere. Molestias cum pariatur saepe illo molestiae voluptate nostrum omnis quae. Molestias sunt consequatur repellendus.",
+    "postedToday": true,
+    "Upvotes": 76282
+  },
+  {
+    "_id": "192889c7-424d-45d1-9e18-92fc2b81a3ae",
+    "Username": "Karen Carter",
+    "post": "Accusamus odio similique nesciunt est laborum mollitia facere ipsum culpa. Veniam expedita totam expedita. Ducimus dolorum veniam dolor. Inventore provident quisquam. Molestias ut atque similique.",
+    "postedToday": false,
+    "Upvotes": 98690
+  },
+  {
+    "_id": "b39524dc-7dc5-4a3a-8370-2a10d0adb793",
+    "Username": "Teresa Lind",
+    "post": "Molestiae veniam pariatur quasi laborum. Sint nulla reiciendis porro enim. Repudiandae deserunt at consequuntur odit sapiente. Neque atque fugiat impedit laboriosam.",
+    "postedToday": true,
+    "Upvotes": 90019
+  }
+]
