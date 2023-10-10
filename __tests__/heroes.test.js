@@ -1,8 +1,8 @@
-const { randomHeroGen } = require('../heroBuilder')
+const { randomHeroGen, createRandomHero } = require('../heroBuilder')
 const { writeJSONFile, readJSONFile } = require('../helpers')
 
 describe("Heroes", () => {
-    describe("randomHeroGen", ()=> {
+    describe("Random Hero Gen", ()=> {
         it("should generate a single hero", () => {
             const input = 1
             const actual = randomHeroGen(input)
@@ -10,12 +10,15 @@ describe("Heroes", () => {
             expect(actual.length).toEqual(expected)
         })
     })
-    describe("randomHeroGen", ()=> {
-        it("should generate multiple heroes", () => {
-            const input = 2
-            const actual = randomHeroGen(input)
-            const expected = 2
-            expect(actual.length).toEqual(expected)
+    describe("Create Hero Data Types", () => {
+        it("should have correct properties", () => {
+            const hero = createRandomHero()
+            expect(hero).toHaveProperty('voughtID')
+            expect(hero).toHaveProperty('name')
+            expect(hero).toHaveProperty('powerLevelOver9k')
+            expect(hero).toHaveProperty('weakness')
+            expect(hero).toHaveProperty('peopleSaved')
+            expect(hero).toHaveProperty('digitalWallets')
         })
     })
 })
