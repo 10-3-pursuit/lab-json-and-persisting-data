@@ -14,7 +14,7 @@ const createRandomMessage = () => {
     }
     return message
 }
-console.log(createRandomMessage())
+// console.log(createRandomMessage())
 
 const randomMessageFactory = (num) => {
     const messages = []
