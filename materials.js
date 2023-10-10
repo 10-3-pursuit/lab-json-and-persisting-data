@@ -1,6 +1,6 @@
 const { faker } = require("@faker-js/faker");
 
-const generateRandomMaterial = (num) => {
+const generateRandomMaterials = (num) => {
     if (typeof num !== "number") return undefined;
         let output = [];
         for (let i = 0; i < num; i++) {
@@ -12,6 +12,6 @@ const generateRandomMaterial = (num) => {
         return output.join(", ");        
 }
 
-console.log(generateRandomMaterial (2));
+console.log(generateRandomMaterials (2));
 
-module.exports = { generateRandomMaterial };
+module.exports = { generateRandomMaterials };
