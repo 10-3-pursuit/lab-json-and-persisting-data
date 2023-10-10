@@ -12,19 +12,16 @@ const createRandomMessage = () =>{
     };
     return message;
 };
-// console.log(createRandomMessage())
 
 const createMultipleMessages = (num) =>{
     const messages = []
     for(let i = 0; i < num; i++){
-        messages.push(createRandomMessage())
-    }
+        messages.push(createRandomMessage());
+    };
     return messages;
-}
-
-// console.log(createMultipleMessages(3))
+};
 
 module.exports = {
     createRandomMessage,
     createMultipleMessages
-}
+};
