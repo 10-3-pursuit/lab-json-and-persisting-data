@@ -2,7 +2,7 @@ const { faker } = require("@faker-js/faker");
 
 const generateRandomMaterial = () => {
     const material = {
-        material: faker.commerce.productMaterial(),
+        material: faker.commerce.productMaterial(), // generates string
     };
     return material;
 };
