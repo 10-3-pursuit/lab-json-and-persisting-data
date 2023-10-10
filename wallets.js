@@ -5,8 +5,8 @@ const createRandomWallet = (_currency, amount) => {
     const wallet = {
         _id: faker.datatype.uuid(),
         displayName: `${faker.person.firstName}`,
-        balance: amount,
         currency: _currency,
+        balance: amount
     };
     return wallet;
 }
