@@ -15,7 +15,7 @@ const createRandomWallet = (_currency = 'USD', amount = 0) => {
 function depositMoney(id, currency, amount) {
     const wallet = wallets.find((w) => {
         if (w._id == id) {
-            w.balance += amount;
+            w.balance = Number(w.balance) + Number(amount);
             // if (currency == 'USD') {
                 
             // }
@@ -26,8 +26,10 @@ function depositMoney(id, currency, amount) {
         }
     });
     console.log(wallet);
-    return wallet;
+    return wallet ? wallet : null;
 }
+
+// depositMoney('09bac105-22d6-4707-9098-e02ebb972128', 'USD', 100);
         
 const generateMultipleWallets = (num, _currency = 'USD', amount = 0.1) => {
     const wallets = [];
