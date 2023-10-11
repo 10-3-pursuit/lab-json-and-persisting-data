@@ -1,6 +1,6 @@
 const { createRandomCat, randomCatMade } = require("./cats");
 const { writeJSONFile, readJSONFile } = require("./helpers");
-const fs = require("node:fs");
+//const fs = require("node:fs");
 
 function run() {
   let cats = readJSONFile("./data", "cats.json");
@@ -13,3 +13,6 @@ function run() {
   writeJSONFile("./data", "cats.json", cats);
 }
 run();
+
+
+
