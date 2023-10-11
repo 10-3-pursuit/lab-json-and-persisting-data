@@ -4,7 +4,9 @@
   "description": "You will build an app that generates a fake data set for a new app with the npm package `faker-js@7`.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "start": "node index.js",
+    "material": "node index.js material"
   },
   "keywords": [],
   "author": "",

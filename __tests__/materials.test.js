@@ -9,7 +9,7 @@ describe(generateRandomMaterials, () => {
         expect(typeof actual).toBe("string");
 
         // Assert that actual result is not empty
-//        expect(actual.length).toBeGreaterThan(0);
+        // expect(actual.length).toBeGreaterThan(0);
     });
     test ("generates correct number of items",() => {
         const input = 5; // test for 5 materials

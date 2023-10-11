@@ -19,6 +19,4 @@ const generateRandomMaterials = (num) => {
         return output.join(", ");        
 }
 
-console.log(generateRandomMaterials (2));
-
 module.exports = { generateRandomMaterials };

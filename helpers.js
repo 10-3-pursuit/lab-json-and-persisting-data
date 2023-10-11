@@ -14,7 +14,7 @@ function readJSONFile(path, fileName) {
     return writeFileSync(`${path}/${fileName}`, data, { encoding: "utf-8" });
   }
   
-  // to export functions
+  // to export functions to materials.js and index.js
   module.exports = {
     readJSONFile,
     writeJSONFile,
