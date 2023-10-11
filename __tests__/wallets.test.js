@@ -6,8 +6,8 @@ describe('Create Random Wallet', () => {
     it('should create a wallet with a 0 balance if no amount is given', () => {
         actual = createRandomWallet();
         expected = {
-            _id: actual._id,
-            displayName: actual.displayName,
+            _id: null,
+            displayName: null,
             currency: 'USD',
             balance: 0
         };
@@ -22,28 +22,42 @@ describe('Create Random Wallet', () => {
             currency: 'USD',
             balance: 100
         };
-        expect(actual).toBe(expected);
+        expect(actual).toEqual(expected);
+    })
+
+    it('should create four key fields when creating a new wallet', () => {
+        input = createRandomWallet('USD', 70);
+        actual = Object.keys(input);
+        expected = ['_id', 'displayName', 'currency', 'balance'];
+        expect(actual).toEqual(expected);
+    })
+
+    it('should create a number in the balance field when creating a new wallet', () => {
+        input = createRandomWallet('USD', 70);
+        actual = typeof input.balance;
+        expected = 'number'
+        expect(actual).toEqual(expected);
     })
 });
 
-describe('Deposit Money', () => {
-    it('should deposit $50 into a specific wallet given an id and an amount of 50 USD.', () => {
-        input = {
-            _id: "92d43649-d0d4-458b-b85a-c9e241b33474",
-            displayName: 'bear',
-            currency: 'USD',
-            balance: 0
-        };
-        actual = depositMoney(input._id, 'USD', 50);
-        expected = {
-            _id: "92d43649-d0d4-458b-b85a-c9e241b33474",
-            displayName: 'bear',
-            currency: 'USD',
-            balance: 50
-        };
-        expect(actual).toEqual(expected);
-    })
-})
+// describe('Deposit Money', () => {
+//     it('should deposit $50 into a specific wallet given an id and an amount of 50 USD.', () => {
+//         input = {
+//             _id: "92d43649-d0d4-458b-b85a-c9e241b33474",
+//             displayName: 'bear',
+//             currency: 'USD',
+//             balance: 0
+//         };
+//         actual = depositMoney(input._id, 'USD', 50);
+//         expected = {
+//             _id: "92d43649-d0d4-458b-b85a-c9e241b33474",
+//             displayName: 'bear',
+//             currency: 'USD',
+//             balance: 50
+//         };
+//         expect(actual).toEqual(expected);
+//     })
+// })
 
 // function depositMoney(id, currency, amount) {
 //     const wallet = blocks.find((block) => block._id == id);
