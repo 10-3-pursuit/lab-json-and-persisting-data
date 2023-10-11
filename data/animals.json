@@ -1,0 +1,46 @@
+[
+  {
+    "animalId": "861a0b98-136d-407a-9656-7702393e170a",
+    "name": "clumsy bird",
+    "description": "Rem cumque suscipit numquam in repellat.\nAnimi iste beatae ipsa officiis sapiente aperiam eligendi eligendi.",
+    "numberOfAnimals": "43",
+    "pettable": true,
+    "attributes": {
+      "color": "ivory",
+      "fur": false
+    }
+  },
+  {
+    "animalId": "5b8c3997-f59e-4c52-8f7d-cd61566c2b07",
+    "name": "bare snake",
+    "description": "Repudiandae illum voluptas.\nSimilique laudantium minima totam sed.",
+    "numberOfAnimals": "46",
+    "pettable": false,
+    "attributes": {
+      "color": "orange",
+      "fur": false
+    }
+  },
+  {
+    "animalId": "a3a5745e-1109-4d11-9994-7b5bf28dcb02",
+    "name": "bronze bird",
+    "description": "Doloremque ea fugiat.\nArchitecto optio odit architecto totam officiis reiciendis.",
+    "numberOfAnimals": "49",
+    "pettable": true,
+    "attributes": {
+      "color": "blue",
+      "fur": false
+    }
+  },
+  {
+    "animalId": "557c32d0-130f-493c-8c0d-6e04c827d9dd",
+    "name": "familiar bear",
+    "description": "Corporis voluptates culpa quia magnam.\nAtque ratione repellendus molestiae tempore exercitationem eum harum commodi.",
+    "numberOfAnimals": "47",
+    "pettable": true,
+    "attributes": {
+      "color": "black",
+      "fur": true
+    }
+  }
+]
